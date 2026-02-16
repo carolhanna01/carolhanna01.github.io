@@ -67,7 +67,7 @@ education:
     # end: 2013-05-31
 
 experience:
-  - role: Principal Research Scientist (part-time)
+  - role: Principal Research Scientist
     org: Code SA
     start: 2025-09
     # summary: |
@@ -76,6 +76,19 @@ experience:
     #   text: View portfolio
     #   url: /
     #   icon: hero/arrow-down-tray
+  - role: Teaching Assistant and Guest Lecturer
+    org: Creator Fund
+    start: 2024-10
+
+  - role: Venture Capital Fellow
+    org: University College London
+    start: 2023-09
+
+  - role: Research Assistant
+    org: University College London
+    start: 2022-10
+    end: 2023-01
+
   - role: Pre-Silicon Verification Engineer
     org: Intel Corporation
     start: 2019-08

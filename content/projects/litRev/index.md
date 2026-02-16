@@ -1,6 +1,6 @@
 ---
 title: A Review of Hot Fixing
-date: 2023-10-26
+# date: 2023-10-26
 links:
   - type: GitHub
     url: https://carolhanna01.github.io/hotfixes.github.io/

@@ -1,6 +1,6 @@
 ---
-title: Courses
-summary: My courses
+title: Teaching
+summary: Teaching Experience
 type: landing
 
 cascade:
