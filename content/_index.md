@@ -16,11 +16,11 @@ sections:
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
-        about: ''
+        about: '📚 About me'
         education: ''
         interests: ''
     design:
@@ -37,18 +37,16 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: '📚 About me'
+  #     subtitle: ''
+  #     text: |-
+  #       I am a PhD candidate in Computer Science at University College London, where my research explores how automation and AI can make software systems more resilient and adaptive. My work investigates automated repair and improvement through the lens of hot fixing and rapid recovery. Through projects combining search-based, reinforcement learning, and large language model–guided techniques, I study how intelligent systems can reason about, generate, and explain software changes. I have also examined the industrial and human aspects of rapid repair through studies of real-world hot fixing practices.
+        
+  #       I serve the software engineering community as a reviewer and organizer for top conferences and journals, as well as through teaching at UCL. Alongside my PhD, I work part-time as a Principal Research Scientist at a London-based startup, contributing to their tech stack and services. I am passionate about the startup ecosystem, with experience in venture capital and early-stage deep tech startups.
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
