@@ -58,17 +58,20 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      show_read_time: false
+      show_date: false
 
   - block: collection
     content:
       title: Featured Publications
       filters:
         folders:
-          - publications
-        featured_only: true
+          - projects
+        # featured_only: true
     design:
       view: article-grid
       columns: 2
+      show_read_time: false
 
   # - block: collection
   #   id: talks

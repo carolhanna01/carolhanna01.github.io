@@ -12,6 +12,7 @@ links:
   # - Hugo
   # - HugoBlox
   # - Markdown
+
 ---
 
 The first hot fix benchmark. A comprehensive benchmark of Java hot fixes that address time-critical bugs.

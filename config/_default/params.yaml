@@ -167,7 +167,8 @@ hugoblox:
     # Academic citations
     citations:
       style: apa                        # apa | mla | chicago | ieee
-
+      show_read_time: false
+      show_date: false
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
   # Site search
