@@ -1,13 +1,11 @@
 ---
-title: 'Large Language Model Based Code Completion is an Effective Genetic Improvement Mutation'
+title: 'Toward Systematizing Hot Fixing for Production Software'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyuan Wang
   - Carol Hanna
-  - Justyna Petke
 
 # Author notes (optional)
 # author_notes:
@@ -17,7 +15,7 @@ authors:
 # date: '2023-12-10'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-27'
+publishDate: '2024-07-10'
 
 
 # Publication type.
@@ -26,14 +24,15 @@ publishDate: '2025-04-27'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE/ACM International Workshop on Genetic Improvement (GI)
+publication: In Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering
 # publication_short: In International symposium on search based software engineering
 
-abstract: Large language models (LLMs) have been successfully applied to software engineering tasks, including program repair. However, their application in search-based techniques such as Genetic Improvement (GI) is still largely unexplored. In this paper, we evaluate the use of LLMs as mutation operators for GI to improve the search process. We expand the Gin Java GI toolkit to call OpenAI's API to generate edits for the JCodec tool. We randomly sample the space of edits using 5 different edit types. We find that the number of patches passing unit tests is up to 75% higher with LLM-based edits than with standard Insert edits. Further, we observe that the patches found with LLMs are generally less diverse compared to standard edits. We ran GI with local search to find runtime improvements. Although many improving patches are found by LLM-enhanced GI, the best improving patch was found by standard GI.
+abstract: A hot fix is an unplanned improvement to a specific time-critical issue deployed to a system in production. This topic has never been surveyed within software engineering despite hot fixing being a long-standing and common activity. We present a preliminary overview of existing work on the topic. We find that practices around hot fixing are generally not systematized, and thus present an initial taxonomy of work found with ideas for future studies. We hope our work will drive research on hot fixing forward.
 
 tags:
-  - Large Langage Models
+  - Runtime
   - Genetic Improvement
+  - Reinforcement Learning
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,7 +46,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://ieeexplore.ieee.org/abstract/document/11029466"
+    url: "https://dl.acm.org/doi/abs/10.1145/3663529.3664456"
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset

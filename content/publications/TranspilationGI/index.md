@@ -1,12 +1,13 @@
 ---
-title: 'Large Language Model Based Code Completion is an Effective Genetic Improvement Mutation'
+title: 'Applying Genetic Improvement Techniques for Automated Program Repair of Transpiled Code'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyuan Wang
+  - Prasham Jadhwani
   - Carol Hanna
+  - William B. Langdon
   - Justyna Petke
 
 # Author notes (optional)
@@ -17,7 +18,7 @@ authors:
 # date: '2023-12-10'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-27'
+date: '2026-01-01'
 
 
 # Publication type.
@@ -26,13 +27,13 @@ publishDate: '2025-04-27'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE/ACM International Workshop on Genetic Improvement (GI)
+publication: In International Workshop on Genetic Improvement@ ICSE
 # publication_short: In International symposium on search based software engineering
 
-abstract: Large language models (LLMs) have been successfully applied to software engineering tasks, including program repair. However, their application in search-based techniques such as Genetic Improvement (GI) is still largely unexplored. In this paper, we evaluate the use of LLMs as mutation operators for GI to improve the search process. We expand the Gin Java GI toolkit to call OpenAI's API to generate edits for the JCodec tool. We randomly sample the space of edits using 5 different edit types. We find that the number of patches passing unit tests is up to 75% higher with LLM-based edits than with standard Insert edits. Further, we observe that the patches found with LLMs are generally less diverse compared to standard edits. We ran GI with local search to find runtime improvements. Although many improving patches are found by LLM-enhanced GI, the best improving patch was found by standard GI.
+abstract: We use Genetic Improvement (GI)-based Automated Program Repair (APR) techniques for syntax correction on transpiled code produced by both large language models (LLMs) and rule-based translators. A three-stage pipeline was developed, combining rule- based test generation, an optional LLM-driven preprocessing stage for syntax correction, and GI-based repair strategies. LLM-assisted Type Change Operator and Boolean Value Change Operator were added to the MAGPIE GI framework, which reduced transpilation bugs from Python to Java by 33% (LLM) and by 18% on rule-based translations. A comprehensive taxonomy of common transpilation bugs was developed, mapping faults to mutation operators, alongside an evaluation of the effectiveness of secondary LLM interventions.
 
 tags:
-  - Large Langage Models
+  - Code Transpilation
   - Genetic Improvement
 
 # Display this page in the Featured widget?
@@ -47,7 +48,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://ieeexplore.ieee.org/abstract/document/11029466"
+    url: "https://solar.cs.ucl.ac.uk/pdf/jadhwani_2026_GI.pdf"
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset

@@ -1,11 +1,11 @@
 ---
-title: 'Large Language Model Based Code Completion is an Effective Genetic Improvement Mutation'
+title: "Optimised fitness functions for automated improvement of software's execution time"
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyuan Wang
+  - Dimitrios Stamatios Bouras
   - Carol Hanna
   - Justyna Petke
 
@@ -17,7 +17,7 @@ authors:
 # date: '2023-12-10'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-27'
+publishDate: '2025-11-16'
 
 
 # Publication type.
@@ -26,13 +26,13 @@ publishDate: '2025-04-27'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE/ACM International Workshop on Genetic Improvement (GI)
+publication: In Symposium on Search-Based Software Engineering
 # publication_short: In International symposium on search based software engineering
 
-abstract: Large language models (LLMs) have been successfully applied to software engineering tasks, including program repair. However, their application in search-based techniques such as Genetic Improvement (GI) is still largely unexplored. In this paper, we evaluate the use of LLMs as mutation operators for GI to improve the search process. We expand the Gin Java GI toolkit to call OpenAI's API to generate edits for the JCodec tool. We randomly sample the space of edits using 5 different edit types. We find that the number of patches passing unit tests is up to 75% higher with LLM-based edits than with standard Insert edits. Further, we observe that the patches found with LLMs are generally less diverse compared to standard edits. We ran GI with local search to find runtime improvements. Although many improving patches are found by LLM-enhanced GI, the best improving patch was found by standard GI.
+abstract: Precise measurement of software execution time is challenging due to environmental variability and measurement overheads, an issue critical for search-based software improvement systems that evaluate thousands of variants. While precise measurements offer precise fitness measures, they often introduce a significant time overhead. To understand which measures are most effective as fitness functions in search-based software optimisation, we conducted an empirical study of 21 approximates of execution time. These included hardware-level counters from perf, RAPL energy, and a custom measure based on weighted instruction cycles. To improve reliability, we evaluated each fitness function up to five times, using medians to reduce noise. We integrated the 13 most promising measures into a search-based software optimisation framework called MAGPIE. We evaluated these fitness functions plus Time, already present in MAGPIE, on 7 benchmarks using both code-level and parameter-level mutations. To assess generalizability, we tested the best performing measures with the parameter tuning tool ParamILS and analyzed how tool and search strategy affect outcomes. Our results show that perf’s cycles measure yields the best overall performance, outperforming Time by 5.1%. Sampling three times balances reliability and exploration. Energy and the weight-based measure excel in specific scenarios, with weights being the best for parameter optimization on MAGPIE, but are better suited to longer searches due to their overhead. We highlight a trade-off- low-overhead measures like Time work well for short runs, while robust measures such as cycles and weights benefit longer ones.
 
 tags:
-  - Large Langage Models
+  - Runtime
   - Genetic Improvement
 
 # Display this page in the Featured widget?
@@ -47,7 +47,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://ieeexplore.ieee.org/abstract/document/11029466"
+    url: "https://solar.cs.ucl.ac.uk/pdf/bouras_2025_ssbse.pdf"
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset

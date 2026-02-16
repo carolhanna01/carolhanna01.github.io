@@ -1,11 +1,11 @@
 ---
-title: 'Large Language Model Based Code Completion is an Effective Genetic Improvement Mutation'
+title: 'Enhancing software runtime with reinforcement learning-driven mutation operator selection in genetic improvement'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyuan Wang
+  - Damien Bose
   - Carol Hanna
   - Justyna Petke
 
@@ -29,11 +29,12 @@ publication_types: ['paper-conference']
 publication: In IEEE/ACM International Workshop on Genetic Improvement (GI)
 # publication_short: In International symposium on search based software engineering
 
-abstract: Large language models (LLMs) have been successfully applied to software engineering tasks, including program repair. However, their application in search-based techniques such as Genetic Improvement (GI) is still largely unexplored. In this paper, we evaluate the use of LLMs as mutation operators for GI to improve the search process. We expand the Gin Java GI toolkit to call OpenAI's API to generate edits for the JCodec tool. We randomly sample the space of edits using 5 different edit types. We find that the number of patches passing unit tests is up to 75% higher with LLM-based edits than with standard Insert edits. Further, we observe that the patches found with LLMs are generally less diverse compared to standard edits. We ran GI with local search to find runtime improvements. Although many improving patches are found by LLM-enhanced GI, the best improving patch was found by standard GI.
+abstract: Genetic Improvement employs heuristic search algorithms to explore the search space of program variants by modifying code using mutation operators. This research focuses on operators that delete, insert and replace source code statements. Traditionally, in GI an operator is chosen uniformly at random at each search iteration. This work leverages Reinforcement Learning to intelligently guide the selection of these operators specifically to improve program runtime. We propose to integrate RL into the operator selection process. Four Multi-Armed bandit RL algorithms (Epsilon Greedy, UCB, Probability Matching, and Policy Gradient) were integrated within a GI framework, and their efficacy and efficiency were benchmarked against the traditional GI operator selection approach. These RL-guided operator selection strategies have demonstrated empirical superiority over the traditional GI methods of randomly selecting a search operator, with UCB emerging as the top-performing RL algorithm. On average, the UCBguided Hill Climbing search algorithm produced variants that compiled and passed all tests 44 % of the time, while only 22 % of the variants produced by the traditional uniform random selection strategies compiled and passed all tests.
 
 tags:
-  - Large Langage Models
+  - Runtime
   - Genetic Improvement
+  - Reinforcement Learning
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,7 +48,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://ieeexplore.ieee.org/abstract/document/11029466"
+    url: "https://ieeexplore.ieee.org/abstract/document/11029541"
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset

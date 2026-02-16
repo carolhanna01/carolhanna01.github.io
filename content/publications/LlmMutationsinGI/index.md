@@ -1,13 +1,17 @@
 ---
-title: 'Large Language Model Based Code Completion is an Effective Genetic Improvement Mutation'
+title: 'LLM-Guided Genetic Improvement: Envisioning Semantic Aware Automated Software Evolution'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Jingyuan Wang
+  - Karine Even-Mendoza
+  - Alexander Brownlee
+  - Alina Geiger
   - Carol Hanna
   - Justyna Petke
+  - Federica Sarro
+  - Dominik Sobania
 
 # Author notes (optional)
 # author_notes:
@@ -17,7 +21,7 @@ authors:
 # date: '2023-12-10'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-27'
+publishDate: '2025-08-25'
 
 
 # Publication type.
@@ -26,14 +30,15 @@ publishDate: '2025-04-27'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE/ACM International Workshop on Genetic Improvement (GI)
+publication: In International Conference on Automated Software Engineering
 # publication_short: In International symposium on search based software engineering
 
-abstract: Large language models (LLMs) have been successfully applied to software engineering tasks, including program repair. However, their application in search-based techniques such as Genetic Improvement (GI) is still largely unexplored. In this paper, we evaluate the use of LLMs as mutation operators for GI to improve the search process. We expand the Gin Java GI toolkit to call OpenAI's API to generate edits for the JCodec tool. We randomly sample the space of edits using 5 different edit types. We find that the number of patches passing unit tests is up to 75% higher with LLM-based edits than with standard Insert edits. Further, we observe that the patches found with LLMs are generally less diverse compared to standard edits. We ran GI with local search to find runtime improvements. Although many improving patches are found by LLM-enhanced GI, the best improving patch was found by standard GI.
+abstract: Genetic Improvement (GI) of software automatically creates alternative software versions that are improved according to certain properties of interests (e.g., running-time). Search-based GI excels at navigating large program spaces, but operates primarily at the syntactic level. In contrast, Large Language Models (LLMs) offer semantic-aware edits, yet lack goal-directed feedback and control (which is instead a strength of GI). As such, we propose the investigation of a new research line on AI-powered GI aimed at incorporating semantic aware search. We take a first step at it by augmenting GI with the use of automated clustering of LLM edits. We provide initial empirical evidence that our proposal, dubbed PatchCat, allows us to automatically and effectively categorize LLM-suggested patches. PatchCat identified 18 different types of software patches and categorized newly suggested patches with high accuracy. It also enabled detecting NoOp edits in advance and, prospectively, to skip test suite execution to save resources in many cases. These results, coupled with the fact that PatchCat works with small, local LLMs, are a promising step toward interpretable, efficient, and green GI. We outline a rich agenda of future work and call for the community to join our vision of building a principled understanding of LLM-driven mutations, guiding the GI search process with semantic signals. 
 
 tags:
   - Large Langage Models
   - Genetic Improvement
+  - AI
 
 # Display this page in the Featured widget?
 featured: false
@@ -47,7 +52,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://ieeexplore.ieee.org/abstract/document/11029466"
+    url: "https://arxiv.org/abs/2508.18089"
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset
