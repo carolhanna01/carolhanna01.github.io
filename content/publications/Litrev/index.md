@@ -35,8 +35,11 @@ featured: false
 
 links:
   - type: Paper
+    label: Paper
     url: https://dl.acm.org/doi/pdf/10.1145/3786330
-
+  - type: Website
+    label: Website
+    url: https://carolhanna01.github.io/hotfixes.github.io/
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

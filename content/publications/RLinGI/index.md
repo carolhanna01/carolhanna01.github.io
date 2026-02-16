@@ -40,7 +40,11 @@ hugoblox:
 
 links:
   - type: Paper
+    label: Paper
     url: https://link.springer.com/article/10.1007/s10515-025-00501-z
+  - type: GitHub
+    label: GitHub
+    url: https://github.com/carolhanna01/jarFly-learner/tree/operator-selection
   # - type: code
   #   url: https://github.com/HugoBlox/kit
   # - type: dataset

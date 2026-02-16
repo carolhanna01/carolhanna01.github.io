@@ -29,7 +29,7 @@ sections:
         # featured_only: true
     design:
       view: article-grid
-      columns: 3
+      columns: 2
       show_read_time: false
       show_date: false
 ---
