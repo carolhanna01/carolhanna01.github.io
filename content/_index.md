@@ -22,7 +22,7 @@ sections:
       headings:
         about: '📚 About me'
         education: false
-        interests: ''
+        interests: '🔬 Research Interests'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
@@ -37,6 +37,7 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+        
   # - block: markdown
   #   content:
   #     title: '📚 About me'
@@ -57,8 +58,9 @@ sections:
         # featured_only: true
     design:
       view: article-grid
-      columns: 3
+      columns: 2
       show_read_time: false
+      show_date: false
 
   # - block: collection
   #   id: papers

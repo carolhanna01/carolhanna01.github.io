@@ -1,0 +1,4 @@
+/* Force smaller bio text
+.biography p {
+  font-size: 0.3rem !important;
+} */
