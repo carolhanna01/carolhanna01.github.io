@@ -22,7 +22,7 @@ sections:
       headings:
         about: '📚 About me'
         education: false
-        interests: '🔬 Research Interests'
+        interests: ''
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:

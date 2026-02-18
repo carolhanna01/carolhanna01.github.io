@@ -49,7 +49,7 @@ hugoblox:
 links:
   - type: paper
     label: Paper
-    url: "https://dl.acm.org/doi/10.1145/3696630.3728564"
+    url: "https://arxiv.org/abs/2510.07529"
   - type: GitHub
     label: GitHub
     url: github.com/carolhanna01/HotBugs-dot-jar
