@@ -11,6 +11,8 @@ sections:
   - block: collection
     content:
       title: 📃 Publications
+      text: |
+        🔗 [View full list on Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=FTK3wCkAAAAJ)
       count: 0   # 0 = show all
       filters:
         folders:
