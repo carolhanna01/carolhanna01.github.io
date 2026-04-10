@@ -29,7 +29,7 @@ sections:
         - name: Journals
           description: ACM Transactions on Software Engineering and Methodology (TOSEM); IEEE Transactions on Software Engineering (TSE); Journal of Software Evolution and Process
         - name: Conferences & Workshops
-          description: ASE (Research Track 2026; Tool Demo 2025); MSR Main Track 2025; SSBSE Main Track 2025–2026; Genetic Improvement Workshop 2024–2025; ICTSS Challenge 2024; LLM4Sec 2025; Interware Tool Demo 2025
+          description: ASE Research Track 2026; ASE Tool Demo 2025-2026; EQUISA Workshop 2026; MSR Main Track 2025; SSBSE Main Track 2025–2026; LLM4Sec 2025; Interware Tool Demo 2025; Genetic Improvement Workshop 2024–2026; ICTSS Challenge 2024; SSBSE RENE/NIER 2024; 
 
   - block: features
     content:
