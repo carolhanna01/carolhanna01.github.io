@@ -137,6 +137,12 @@ languages:
 #     icon: hero/trophy
 
 bio: |
-  I am a PhD candidate in Computer Science at University College London, where my research explores how automation and AI can make software systems more resilient and adaptive. My work investigates automated repair and improvement through the lens of hot fixing and rapid recovery. Through projects combining search-based, reinforcement learning, and large language model–guided techniques, I study how intelligent systems can reason about, generate, and explain software changes. I have also examined the industrial and human aspects of rapid repair through studies of real-world hot fixing practices. I serve the software engineering community as a reviewer and organizer for top conferences and journals, as well as through teaching at UCL. Alongside my PhD, I work part-time as a Principal Research Scientist at a London-based startup, contributing to their tech stack and services. I am passionate about the startup ecosystem, with experience in venture capital and early-stage deep tech startups.
+  I am a Lecturer in the School of Informatics at the University of Edinburgh and a member of the Institute for Computing Systems Architecture (ICSA).
+  
+  My research interests span a broad range of topics in Software Engineering, with a focus on developing automated, AI-driven techniques to improve both functional and non-functional software properties. I am also interested in evolutionary computation and search-based optimisation, particularly genetic improvement and its integration with AI techniques.
 
-    **Research interests:** Automated Software Engineering, Reinforcement Learning, Search-Based Software Engineering, Large Language Models, Automated Program Repair, Evolutionary Computation.
+  Before joining Edinburgh, I completed my PhD in Computer Science from University College London (UCL), where I was part of the Software Systems Engineering Group under the supervision of Prof. Justyna Petke and Prof. Federica Sarro. My doctoral thesis, "Fixing Under Fire: Practices, Perspectives, and Automation for Hot Fixing Time-Critical Software Issues," investigated how time-critical software issues are addressed in practice and how automated techniques can support their resolution.
+        
+  I am an active member of the software engineering research community, serving as a reviewer and organiser for leading conferences and journals. Beyond Academia, I am passionate about the startup ecosystem, with experience in venture capital and early-stage deep tech startups.
+
+  I am always looking for motivated students who are passionate about research and building safe, reliable, and sustainable software systems. If you are interested in pursuing a PhD or collaborating on related research topics, please feel free to get in touch!
