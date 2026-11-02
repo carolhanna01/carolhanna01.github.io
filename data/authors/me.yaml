@@ -18,7 +18,8 @@ name:
 #   Carol Hanna is a final-year PhD student at University College London, specializing in hot fixing and rapid recovery in software engineering.
 
 affiliations:
-  - name: University College London
+  - name: University of Edinburgh
+    role: Lecturer
     # url: https://ai.meta.com/
 
 links:
