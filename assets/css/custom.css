@@ -1,4 +1,19 @@
-/* Force smaller bio text
-.biography p {
-  font-size: 0.3rem !important;
+/* Widen homepage biography paragraphs */
+/* @media (min-width: 768px) {
+  .wide-biography .prose p {
+    width: min(1100px, calc(100vw - 48px)) !important;
+    max-width: none !important;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: left;
+  }
 } */
+
+/* Smaller biography text */
+.wide-biography .prose p {
+  font-size: 1rem !important; /* 16px */
+  line-height: 1.7;
+}
