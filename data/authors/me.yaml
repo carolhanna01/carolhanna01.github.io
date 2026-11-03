@@ -71,9 +71,22 @@ education:
     end: 2020
 
 experience:
+
+  - role: Lecturer/Assistant Professor in Software Engineering
+    org: School of Informatics, University of Edinburgh
+    start: 2026-11
+    # summary: |
+    #   Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+    # button:
+    #   text: View portfolio
+    #   url: /
+    #   icon: hero/arrow-down-tray
+
   - role: Principal Research Scientist
     org: Code SA
     start: 2025-09
+    end: 2026-01
+
     # summary: |
     #   Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
     # button:
@@ -83,6 +96,7 @@ experience:
   - role: Teaching Assistant and Guest Lecturer
     org: University College London
     start: 2023-10
+    end: 2025-12
 
   - role: Venture Capital Fellow
     org: Creator Fund
