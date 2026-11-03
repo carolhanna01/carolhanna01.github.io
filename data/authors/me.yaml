@@ -24,7 +24,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:carol.hanna.21@ucl.ac.uk
+    url: mailto:carol.hanna@ed.ac.uk
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/carolhanna01
@@ -152,7 +152,7 @@ languages:
 #     icon: hero/trophy
 
 bio: |
-  I am a Lecturer in the School of Informatics at the University of Edinburgh and a member of the Institute for Computing Systems Architecture (ICSA).
+  I am a Lecturer/Assistant Professor in the School of Informatics at the University of Edinburgh and a member of the Institute for Computing Systems Architecture (ICSA).
   
   My research interests span a broad range of topics in Software Engineering, with a focus on developing automated, AI-driven techniques to improve both functional and non-functional software properties. I am also interested in evolutionary computation and search-based optimisation, particularly genetic improvement and its integration with AI techniques.
 
